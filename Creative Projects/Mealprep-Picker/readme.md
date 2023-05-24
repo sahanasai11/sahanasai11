@@ -1,5 +1,5 @@
 **Mealprep Picker**
-
+----
 In this project, I create my own Node.js/Express web service available for use with AJAX to help me choose which meal to meal-prep for the following week. The front-end was created using HTML, CSS, and JavaScript.
 
 
