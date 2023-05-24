@@ -1,0 +1,4 @@
+5
+Enjoy the fresh taste of mango with our mango flavor ice cream!
+mango-cup.png
+false

@@ -1,0 +1,16 @@
+section, h1 {
+    display: block;
+}
+
+section {
+    margin-left: 100px;
+}
+
+button {
+    margin-top: 20px;
+}
+
+#contact-description {
+    width: 1200px;
+    height: 210 px;
+}

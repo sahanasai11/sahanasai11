@@ -1,0 +1,88 @@
+<!--
+    Name: Sahana Saikumar
+    CS 132 Spring 2022
+    Date: 5/8/2022
+    This is the menu.html page for the final project. This page contains information about
+    every product that is available from this company.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet" />
+    <link href="productstyles.css" rel="stylesheet" />
+    <link href="menustyles.css" rel="stylesheet" />
+    <script src="helpers.js"></script>
+    <script defer src="menu.js"></script>
+    <title>Ice Cream!</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div id="logo">            
+                <img src="img/logo.png" alt="Ice cream logo" />
+            </div>
+            <div>
+                <a href="index.html">Home</a>
+            </div>
+            <div>
+                <a href="menu.html">Menu</a>
+            </div>
+            <div>
+                <a href="contact.html">Contact Us!</a>
+            </div>
+            <div>
+                <a href="cart.html"><img src="img/cart.png" alt="cart"/></a>
+                <!-- https://www.vecteezy.com/vector-art/583300-online-cart-icon-vector -->
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <aside>
+            <h2>Filters</h2>
+            <div id="slider">
+                <input type="range" id="price-range" min="3" max="6" value="6" class="slider">
+                <div id="prices">
+                    <p>$3</p>
+                    <p>$6</p>
+                </div>
+            </div>
+
+            <div id="restrictions">
+                <div>
+                    <input type="checkbox" id="dairy-free" name="restriction">
+                    <label for="restriction1">Dairy-free</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" id="nut-free" name="restriction">
+                    <label for="restriction2">Nut-free</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="low-fat" name="restriction">
+                    <label for="restriction3">Low fat</label>
+                </div>
+            </div>  
+        </aside>
+
+        <div id="products">
+           
+        </div>
+        
+    </main>
+
+    <footer>
+        <p>All images cited in page source. &copy; 2022</p>
+        <!--Images taken from flaticon.com, colored using Microsoft Paint-->
+    </footer>
+
+</body>
+</html>

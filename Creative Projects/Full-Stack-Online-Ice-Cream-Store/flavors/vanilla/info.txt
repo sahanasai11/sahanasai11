@@ -1,0 +1,4 @@
+3
+The most classic of the classics!
+vanilla-cup.png
+false

@@ -1,0 +1,4 @@
+4
+Enjoy a classic flavor with our strawberry ice cream!
+strawberry-cup.png
+false

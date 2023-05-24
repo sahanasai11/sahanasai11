@@ -1,0 +1,37 @@
+/*   
+    Name: Sahana Saikumar
+    CS 132 Spring 2022
+    Date: 5/8/2022
+    CSS page for product views
+*/
+
+main, #product {
+    display: flex;
+}
+
+main div {
+    align-items: center;
+}
+
+#product {
+    flex-direction: column;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+aside {
+    background-color: #feafac;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 200px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
