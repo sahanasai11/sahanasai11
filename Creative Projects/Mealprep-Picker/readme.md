@@ -2,10 +2,10 @@
 ----
   Returns JSON data of each meal and its respective information
 
-* **URL**
+* **URL: **
 /meals
 
-* **Method:**
+* **Method: **
   `GET`
   
 *  **URL Params**
@@ -15,11 +15,10 @@
 
    **Optional:**
  
-* **Data Params**
-
+* **Data Params: **
   None
 
-* **Success Response:**
+* **Success Response: **
 
   * **Code:** 200 <br />
     **Content:** 
