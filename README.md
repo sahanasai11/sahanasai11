@@ -1,5 +1,3 @@
-### Hi there 👋
-
 <!--
 **sahanasai11/sahanasai11** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -17,7 +15,7 @@ Here are some ideas to get you started:
 
 # My Portfolio
 
-Welcome to my repository! This repository serves as a showcase of my skills, projects, and experience. It provides a glimpse into my capabilities as a software developer and highlights some of the work I've done.
+Hi there 👋 This repository serves as a showcase of my skills, projects, and experience. It provides a glimpse into my capabilities as a software developer and highlights some of the work I've done.
 
 <!-- ## About Me
 
