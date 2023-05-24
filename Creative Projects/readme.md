@@ -1,4 +1,4 @@
-**This folder holds creative projects made in CS 132 at Caltech.**
+**This folder holds creative projects made in CS 132 at Caltech SP 2021-2022.**
 - Chess-Opening-and-Defenses
   - Simple website made using HTML, CSS, and JavaScript to practice DOM manipulation
 - Hangman
