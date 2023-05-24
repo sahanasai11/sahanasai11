@@ -34,14 +34,14 @@
 
 * **Sample Call:**
 
-app.get("/meals", async (req, res) => {
+`app.get("/meals", async (req, res) => {
     try {
         const result = await getMealData();
         res.json(result);
     } catch (err) {
         res.status(SERVER_ERR_CODE).send(SERVER_ERROR);
     }
-});
+});`
 
 
 **Show Recipe**
