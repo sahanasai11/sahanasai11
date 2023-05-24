@@ -34,14 +34,16 @@
 
 * **Sample Call:**
 
-`app.get("/meals", async (req, res) => {
+```
+app.get("/meals", async (req, res) => {
     try {
         const result = await getMealData();
         res.json(result);
     } catch (err) {
         res.status(SERVER_ERR_CODE).send(SERVER_ERROR);
     }
-});`
+});
+```
 
 
 **Show Recipe**
@@ -83,7 +85,8 @@
 
 * **Sample Call:**
 
-```app.get("/meals/:meal", async (req, res) => {
+```
+app.get("/meals/:meal", async (req, res) => {
     try {
         res.type("text");
         let result = await getRecipe(req.params.meal);
@@ -91,4 +94,5 @@
     } catch (err) {
         res.status(INVALID_REQ_ERR_CODE).send(INVALID_REQ_ERR);
     }
-});```
+});
+```
