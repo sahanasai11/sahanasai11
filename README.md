@@ -43,7 +43,7 @@ Feel free to explore the projects and dive into the code. You can also find live
 
 ## Education
 
-- Bachelor's Degree in Computer Science, Minor in Information and Data Sciences, California Institute of Technology, 2023
+- Bachelor's Degree in Computer Science, Minor in Information and Data Sciences (California Institute of Technology '23)
 
 <!-- ## Experience
 
