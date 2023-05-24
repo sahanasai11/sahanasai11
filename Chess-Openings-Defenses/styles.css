@@ -1,0 +1,78 @@
+/*
+    Name: Sahana Saikumar
+    CS 132 Spring 2022
+    Date: 4/3/2022
+    This is the styles.css page for my chess website. It is used by all pages in my website
+    to give a clean and sleek appearance.
+*/
+
+h1, h2, h3, h4, li, p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, li, p, ul.navbar li a {
+    color: #dcdcdc;
+}
+
+ul.navbar, body {
+    display: flex;
+}
+
+ul.navbar, h1 {
+    background-color: #111;
+}
+
+ul.navbar {
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+  
+ul.navbar li a {
+    display: block;
+    font-size: 18pt;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+  
+ul.navbar li a:hover, body {
+    background-color: #312e2b;
+}
+
+body {
+    flex-direction: column;
+}
+
+main {
+    margin-left: 30px;
+    margin-right: 30px;
+    flex-grow: 1;
+}
+
+h1 {
+    padding: 40px 20px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 3em;
+}
+
+ul {
+    overflow:auto;
+    padding:0 0 0 1em;
+}
+
+#home_chessboard {
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 40%;
+}
+
+footer p {
+    text-align: center;
+}
+
+img {
+    float: right;
+}
