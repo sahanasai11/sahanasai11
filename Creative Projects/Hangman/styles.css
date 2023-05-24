@@ -1,0 +1,100 @@
+/*
+Author: Sahana Saikumar
+CS 132 Spring 2022
+Date: 5/14/2022
+This is the styles.css page for my Hangman webpage
+*/
+
+#menu-view, #game-view, #letter-btns, #word {
+    display: flex;
+}
+
+#letter-btns, #word {
+    flex-direction: row;
+}
+
+body {
+    margin-left: 50px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+h1, h2, h3, p, button, footer {
+    font-family: 'Waiting for the Sunrise', cursive;
+}
+
+#menu-view {
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 64pt;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+button {
+    position: relative;
+}
+
+#game-view {
+    margin-top: 25px;
+    justify-content: space-around;
+}
+
+#text, h3, #word p {
+    text-align: left;
+}
+
+
+h3 {
+    font-size: 36pt;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
+#letter-btns > div button, button {
+    font-size: 16pt;
+}
+
+#letter-btns > div button {
+    margin-right: 20px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+#letter-btns {
+    width: 450px;
+    flex-wrap: wrap;
+}
+
+.hidden {
+    display: none;
+}
+
+
+#word p {
+    margin-right: 20px;
+    font-size: 48pt;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#defn-text {
+    font-size: 18pt;
+    margin: 0;
+}
+
+#hanger {
+    width:390px;
+    height: 550px;
+}
+
+#err {
+    font-size: 20pt;
+}
