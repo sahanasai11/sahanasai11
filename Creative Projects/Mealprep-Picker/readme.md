@@ -3,18 +3,14 @@
   Returns JSON data of each meal and its respective information
 
 * **URL**
-
-  /meals
+/meals
 
 * **Method:**
-  
   `GET`
   
 *  **URL Params**
 
-
    **Required:**
- 
    `None`
 
    **Optional:**
@@ -88,7 +84,7 @@ app.get("/meals", async (req, res) => {
 
 * **Sample Call:**
 
-app.get("/meals/:meal", async (req, res) => {
+`app.get("/meals/:meal", async (req, res) => {
     try {
         res.type("text");
         let result = await getRecipe(req.params.meal);
@@ -96,4 +92,4 @@ app.get("/meals/:meal", async (req, res) => {
     } catch (err) {
         res.status(INVALID_REQ_ERR_CODE).send(INVALID_REQ_ERR);
     }
-});
+});`
