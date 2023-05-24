@@ -1,0 +1,68 @@
+/*
+    Author: Sahana Saikumar
+    CS 132 Spring 2022
+    Date: 5/29/2022
+
+    This is the styles.css page for my mealprep picker webpage
+*/
+h1, button, p {
+    font-family: 'Open Sans', sans-serif;}
+
+h1 {
+    font-size: 48pt;
+    margin-bottom: 50px;
+}
+
+body, main, #meals, #meals > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+body, main, #btn, #b1, #b2 {
+    background-color: #5CDB95;
+}
+
+#btn, #b1, #b2, h1, p {
+    color: #05386B;
+}
+
+#btn, #b1, #b2 {
+    transition-duration: 0.4s;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-color: #05386B;
+    font-size: 24pt;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+p {
+    margin-bottom: 40px;
+}
+
+#b1, #b2 {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 13pt;
+    margin-top: 20px;
+}
+
+#btn:hover, #b1:hover, #b2:hover {
+    background-color: #05386B;
+    color: #EDF5E1;
+    justify-content: space-evenly;
+}
+
+img {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 300px;
+    height: 300px;
+}
