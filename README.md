@@ -33,7 +33,7 @@ Feel free to explore the projects and dive into the code. You can also find live
 
 ## Skills
 
-- Programming Languages: Python, JavaScript, Java, C, C++, C#
+- Languages: Python, JavaScript, Java, C, C++, C#, SQL
 - Front-end Development: HTML, CSS, JavaScript, Angular, Bootstrap
 - Back-end Development: Node.js, Express, Flask
 - Databases: MySQL, SQLlite
